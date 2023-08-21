@@ -8,8 +8,8 @@ import TimelineSection from "../components/core/Homepage/TimelineSection"
 import LearningLanguageSection from "../components/core/Homepage/LearningLanguageSection"
 import InstructorSection from "../components/core/Homepage/InstructorSection";
 import Banner from "../assets/Images/banner.mp4";
-
-
+import ExploreMore from "../components/core/Homepage/ExploreMore";
+import Footer from "../components/common/Footer";
 const Home = () => {
   return (
     <div>
@@ -126,6 +126,7 @@ const Home = () => {
             codeColor={"text-yellow-25"}
           />
         </div>
+        <ExploreMore/>
       </div>
       
 
@@ -185,6 +186,9 @@ const Home = () => {
                  
             </div>
       {/*Footer */}
+      <div>
+        <Footer/>
+      </div>
     </div>
   );
 };
